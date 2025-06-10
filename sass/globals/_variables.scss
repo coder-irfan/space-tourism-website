@@ -1,0 +1,21 @@
+// Font Families
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap');
+
+$bellefair-font: 'Bellefair', sans-serif;
+$barlow-font: 'Barlow', sans-serif;
+$barlow-condensed-font: 'Barlow Condensed', sans-serif;
+
+
+// Colors
+$white: hsl(0, 0%, 100%);
+$blue-300: hsl(231, 77%, 90%);
+$blue-900: hsl(230, 35%, 7%);
+
+
+// Font Weights
+$weight-400: 400;
+$weight-700: 700;
+
+
+// Transition
+$transition: cubic-bezier(0.05, 0.2, 0.1, 1);

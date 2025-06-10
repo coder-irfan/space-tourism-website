@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./dist/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <title>Frontend Mentor | Space tourism website</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class="crew-engineer">
+
+  <header class="header">
+    <nav class="header__nav">
+      <div class="header__logo">
+        <img src="./assets/shared/logo.svg" alt="header logo" class="header__logo-img">
+      </div>
+      <div class="header__line"></div>
+
+      <div class="header__nav-menu" id="nav-menu">
+        <ul class="header__nav-list">
+          <li><a href="index.html" class="header__nav-link"><span>00</span> Home</a></li>
+          <li><a href="destination-moon.html" class="header__nav-link"><span>01</span> Destination</a></li>
+          <li><a href="crew-commander.html" class="header__nav-link header__nav-active"><span>02</span> Crew</a></li>
+          <li><a href="technology-vehicle.html" class="header__nav-link"><span>03</span> Technology</a></li>
+        </ul>
+        <div class="header__nav-close" id="nav-close">
+          <img src="./assets/shared/icon-close.svg" alt="icon close">
+        </div>
+      </div>
+
+      <div class="header__nav-toggle" id="nav-toggle">
+        <img src="./assets/shared/icon-hamburger.svg" alt="icon hamburger">
+      </div>
+    </nav>
+  </header>
+
+  <main class="main main__crew">
+    <section class="crew" id="crew">
+      <h2 class="crew__subtitle"><span>02</span>Meet your crew</h2>
+      
+      <div class="crew__container">
+        <div class="crew__content">
+          <span class="crew__name" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">Flight Engineer</span>
+          <h1 class="crew__title" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">Anousheh Ansari</h1>
+          <p class="crew__text" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. 
+          Ansari was the fourth self-funded space tourist, the first self-funded woman to 
+          fly to the ISS, and the first Iranian in space.</p>
+
+          <div class="crew__dots">
+            <a href="crew-commander.html" class="crew__dot" data-index="0"></a>
+            <a href="crew-specialist.html" class="crew__dot" data-index="1"></a>
+            <a href="crew-pilot.html" class="crew__dot" data-index="2"></a>
+            <a href="crew-engineer.html" class="crew__dot crew__dot-active" data-index="3"></a>
+          </div>
+        </div>
+
+        <div class="crew__image-wrapper">
+          <picture class="crew__image">
+            <source srcset="./assets/crew/image-anousheh-ansari.webp">
+            <img src="./assets/crew/image-anousheh-ansari.png" alt="image-anousheh-ansari">
+          </picture>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="./js/main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>

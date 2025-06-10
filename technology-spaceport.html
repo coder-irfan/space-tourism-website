@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./dist/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body class="technology-spaceport">
+
+  <header class="header">
+    <nav class="header__nav">
+      <div class="header__logo">
+        <img src="./assets/shared/logo.svg" alt="header logo" class="header__logo-img">
+      </div>
+      <div class="header__line"></div>
+
+      <div class="header__nav-menu" id="nav-menu">
+        <ul class="header__nav-list">
+          <li><a href="index.html" class="header__nav-link"><span>00</span> Home</a></li>
+          <li><a href="destination-moon.html" class="header__nav-link"><span>01</span> Destination</a></li>
+          <li><a href="crew-commander.html" class="header__nav-link"><span>02</span> Crew</a></li>
+          <li><a href="technology-vehicle.html" class="header__nav-link header__nav-active"><span>03</span> Technology</a></li>
+        </ul>
+        <div class="header__nav-close" id="nav-close">
+          <img src="./assets/shared/icon-close.svg" alt="icon close">
+        </div>
+      </div>
+
+      <div class="header__nav-toggle" id="nav-toggle">
+        <img src="./assets/shared/icon-hamburger.svg" alt="icon hamburger">
+      </div>
+    </nav>
+  </header>
+
+  <main class="main main__technology">
+    <section class="technology" id="technology">
+      <h2 class="technology__subtitle"><span>03</span>Space launch 101</h2>
+      
+      <div class="technology__container">
+        <div class="technology__navbar">
+          <a href="technology-vehicle.html" class="technology__nav">1</a>
+          <a href="technology-spaceport.html" class="technology__nav technology__nav-active">2</a>
+          <a href="technology-capsule.html" class="technology__nav">3</a>
+        </div>
+
+        <div class="technology__content">
+          <span class="technology__name" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">The terminology...</span>
+          <h1 class="technology__title" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Spaceport</h1>
+          <p class="technology__text" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, 
+          by analogy to the seaport for ships or airport for aircraft. Based in the 
+          famous Cape Canaveral, our spaceport is ideally situated to take advantage 
+          of the Earth’s rotation for launch.</p>
+        </div>
+        <div class="technology__image-wrapper">
+          <picture class="technology__image">
+            <source srcset="./assets/technology/image-spaceport-portrait.jpg">
+            <img src="./assets/technology/image-spaceport-landscape.jpg" alt="image-spaceport-portrait">
+          </picture>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="./js/main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>

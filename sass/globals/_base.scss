@@ -1,0 +1,85 @@
+@import 'breakpoints';
+@import 'variables';
+
+html {
+    scroll-behavior: smooth;
+    font-size: 100%;
+    min-height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: $barlow-font;
+    color: $blue-300;
+    line-height: 1.5;
+    overflow-x: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-color: $blue-900;
+    min-height: 100vh;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body.home-bg {
+    background-image: url('/public/backgrounds/background-home-mobile.jpg');
+
+    @include breakpoint('md') {
+        background-image: url('/public/backgrounds/background-home-tablet.jpg');
+    }
+
+    @include breakpoint('lg') {
+        background-image: url('/public/backgrounds/background-home-desktop.jpg');
+    }
+}
+
+body.destination-home, .destination-mars, .destination-europa, .destination-titan {
+    background-image: url('/public/backgrounds/background-destination-mobile.jpg');
+
+    @include breakpoint('md') {
+        background-image: url('/public/backgrounds/background-destination-tablet.jpg');
+    }
+
+    @include breakpoint('lg') {
+        background-image: url('/public/backgrounds/background-destination-desktop.jpg');
+    }
+}
+
+body.crew-commander, .crew-specialist, .crew-pilot, .crew-engineer {
+    background-image: url('/public/backgrounds/background-crew-mobile.jpg');
+
+    @include breakpoint('md') {
+        background-image: url('/public/backgrounds/background-crew-tablet.jpg');
+    }
+
+    @include breakpoint('lg') {
+        background-image: url('/public/backgrounds/background-crew-desktop.jpg');
+    }
+}
+
+body.technology-capsule, .technology-vehicle, .technology-spaceport {
+    background-image: url('/public/backgrounds/background-technology-mobile.jpg');
+
+    @include breakpoint('md') {
+        background-image: url('/public/backgrounds/background-technology-tablet.jpg');
+    }
+
+    @include breakpoint('lg') {
+        background-image: url('/public/backgrounds/background-technology-desktop.jpg');
+    }
+}
