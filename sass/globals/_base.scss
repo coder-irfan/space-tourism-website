@@ -37,14 +37,14 @@ a {
 }
 
 body.home-bg {
-    background-image: url('/public/backgrounds/background-home-mobile.jpg');
+    background-image: url('./public/backgrounds/background-home-mobile.jpg');
 
     @include breakpoint('md') {
-        background-image: url('/public/backgrounds/background-home-tablet.jpg');
+        background-image: url('./public/backgrounds/background-home-tablet.jpg');
     }
 
     @include breakpoint('lg') {
-        background-image: url('/public/backgrounds/background-home-desktop.jpg');
+        background-image: url('./public/backgrounds/background-home-desktop.jpg');
     }
 }
 
