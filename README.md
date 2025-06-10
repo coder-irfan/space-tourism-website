@@ -10,19 +10,6 @@ This is a multi-page responsive website challenge built from Frontend Mentor’s
 
 ---
 
-## 🖼️ Screenshots
-
-### Home (Desktop)
-![Home Desktop](./starter-code/assets/screenshots/Screenshot%202025-05-16%20120252.png)
-
-### Technology Page (Tablet)
-![Technology Tablet](./starter-code/assets/screenshots/Screenshot%202025-05-16%20120409.png)
-
-### Mobile View Example
-![Mobile](./starter-code/assets/screenshots/Screenshot%202025-05-16%20123247.png)
-
----
-
 ## 🛠️ Built With
 
 - **HTML5**
