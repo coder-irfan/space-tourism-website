@@ -48,7 +48,7 @@ body.home-bg {
     }
 }
 
-body.destination-home, .destination-mars, .destination-europa, .destination-titan {
+body.destination-home, body.destination-mars, body.destination-europa, body.destination-titan {
     background-image: url('../backgrounds/background-destination-mobile.jpg');
 
     @include breakpoint('md') {
@@ -60,7 +60,7 @@ body.destination-home, .destination-mars, .destination-europa, .destination-tita
     }
 }
 
-body.crew-commander, .crew-specialist, .crew-pilot, .crew-engineer {
+body.crew-commander, body.crew-specialist, body.crew-pilot, body.crew-engineer {
     background-image: url('../backgrounds/background-crew-mobile.jpg');
 
     @include breakpoint('md') {
@@ -72,7 +72,7 @@ body.crew-commander, .crew-specialist, .crew-pilot, .crew-engineer {
     }
 }
 
-body.technology-capsule, .technology-vehicle, .technology-spaceport {
+body.technology-capsule, body.technology-vehicle, body.technology-spaceport {
     background-image: url('../backgrounds/background-technology-mobile.jpg');
 
     @include breakpoint('md') {
