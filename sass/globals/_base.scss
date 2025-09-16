@@ -37,49 +37,49 @@ a {
 }
 
 body.home-bg {
-    background-image: url('/backgrounds/background-home-mobile.jpg');
+    background-image: url('../backgrounds/background-home-mobile.jpg');
 
     @include breakpoint('md') {
-        background-image: url('/backgrounds/background-home-tablet.jpg');
+        background-image: url('../backgrounds/background-home-tablet.jpg');
     }
 
     @include breakpoint('lg') {
-        background-image: url('/backgrounds/background-home-desktop.jpg');
+        background-image: url('../backgrounds/background-home-desktop.jpg');
     }
 }
 
 body.destination-home, .destination-mars, .destination-europa, .destination-titan {
-    background-image: url('/backgrounds/background-destination-mobile.jpg');
+    background-image: url('../backgrounds/background-destination-mobile.jpg');
 
     @include breakpoint('md') {
-        background-image: url('/backgrounds/background-destination-tablet.jpg');
+        background-image: url('../backgrounds/background-destination-tablet.jpg');
     }
 
     @include breakpoint('lg') {
-        background-image: url('/backgrounds/background-destination-desktop.jpg');
+        background-image: url('../backgrounds/background-destination-desktop.jpg');
     }
 }
 
 body.crew-commander, .crew-specialist, .crew-pilot, .crew-engineer {
-    background-image: url('/backgrounds/background-crew-mobile.jpg');
+    background-image: url('../backgrounds/background-crew-mobile.jpg');
 
     @include breakpoint('md') {
-        background-image: url('/backgrounds/background-crew-tablet.jpg');
+        background-image: url('../backgrounds/background-crew-tablet.jpg');
     }
 
     @include breakpoint('lg') {
-        background-image: url('/backgrounds/background-crew-desktop.jpg');
+        background-image: url('../backgrounds/background-crew-desktop.jpg');
     }
 }
 
 body.technology-capsule, .technology-vehicle, .technology-spaceport {
-    background-image: url('/backgrounds/background-technology-mobile.jpg');
+    background-image: url('../backgrounds/background-technology-mobile.jpg');
 
     @include breakpoint('md') {
-        background-image: url('/backgrounds/background-technology-tablet.jpg');
+        background-image: url('../backgrounds/background-technology-tablet.jpg');
     }
 
     @include breakpoint('lg') {
-        background-image: url('/backgrounds/background-technology-desktop.jpg');
+        background-image: url('../backgrounds/background-technology-desktop.jpg');
     }
 }
