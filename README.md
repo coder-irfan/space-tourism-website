@@ -6,7 +6,7 @@ This is a multi-page responsive website challenge built from Frontend Mentor’s
 
 ## 🔗 Live Demo
 
-[👉 View Live Site](https://mohammad-irfan-noorzada.github.io/space-tourism-website/)
+[👉 View Live Site](https://coder-irfan.github.io/space-tourism-website/)
 
 ---
 
